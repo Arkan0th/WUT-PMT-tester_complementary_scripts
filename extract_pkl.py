@@ -99,6 +99,7 @@ sorted_channels = sorted(grouped.keys())
 all_rows.append(separator_placeholder)
 
 for idx, ch in enumerate(sorted_channels):
+    print(f'Processing channel {ch}')
     group = grouped[ch]
 
     # --- separator BETWEEN groups (not before first group) ---
